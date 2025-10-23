@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhyuk's Example 2</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .suggestion {
+            padding-left: 2px;
+            padding-right: 2px;
+        }
+        
+        .suggestion:hover {
+            background-color: #adf;
+            cursor: pointer;
+        }
+        
+        #suggestions {
+            position: absolute;
+            border: 1px solid black;
+            left: 155px;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="../index.html">Link to Start Page</a></h1>
+    <h2>2. Autocomplete</h2>
+    
+    <label for="country">Enter a country name</label>:
+    <input type="text" id="country">
+    <div id="suggestions"></div>
+
+    <script src="../js/ex2.js"></script>
+</body>
+</html>
